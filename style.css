@@ -14,7 +14,7 @@ header{
 	bottom: 0;
 	margin: auto;
 }*/
-.card-body{
+.cards{
 	background: grey;
 }
 .card{
@@ -28,11 +28,45 @@ header{
 	/*margin-left: 5px;*/
 }
 .data{
-	background: lightgrey; padding: 3px;
+	background: lightgrey; 
+	padding: 3px;
 }
 .info{
-	border-bottom: 1px solid grey;
+	border-bottom: 
+	1px solid grey;
 }
 .nav-link:hover{
 	background: lightgrey;
+}
+.recom{
+	border: 10px solid darkgrey;
+	width: 200px;
+	height: 200px;
+	margin-left: 15px;
+}
+.textt{
+	text-align: center;
+	vertical-align: middle;
+	font-size: 30px;
+	line-height:180px;
+}
+.people{
+	background: lightgrey;
+	width: 60%;
+	text-align: left;
+	left: 0;
+	top: -10px;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	margin-top: 15px;
+	padding: 25px;
+	border-radius: 15px;
+	min-width: 1200px;
+}
+.widthpic{
+	width: 100px;
+}
+.carousel-item img {
+justify-content: center;
 }
