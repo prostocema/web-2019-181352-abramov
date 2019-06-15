@@ -5,6 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="shortcut icon" href="pictures/unnamed.jpg" type="image/png">
+	<link rel="stylesheet" type="text/js" href="js.js">
 </head>
 <body>
 <header>
@@ -14,16 +15,90 @@
 				<a href="https://www.reg.ru"><img src="pictures/log.png" width="100px"></a>
 			</div>
 			<div class="col-4">
-			 
+				<form class="form-inline my-2 my-lg-0">
+			      <input class="form-control mr-sm-2" type="search" placeholder="Введите" aria-label="Search">
+			      <button class="btn btn-dark my-2 my-sm-0" type="submit">Поиск</button>
+			     </form>
 			</div>
 			<div class="col-4">
-			    <a href="#" class="btn btn-dark">Авторизоваться</a>
+			    <a href="#" class="btn btn-dark" data-toggle="modal"data-target="#exampleModal">Авторизоваться</a>
 				<a href="#" class="btn btn-outline-dark">Зарегистрироваться</a>
 			</div>
 		</div>
 	</div>
-			    
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Авторизация</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form class="form-inline">
+
+  <label class="sr-only" for="inlineFormInputGroupUsername2">Имя пользователя</label>
+  <div class="input-group mb-2 mr-sm-2">
+    <div class="input-group-prepend">
+      <div class="input-group-text">@</div>
+    </div>
+    <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Имя пользователя">
+  </div>
+
+  <button type="submit" class="btn btn-dark  mb-2" data-dismiss="modal">Войти</button>
+</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Закрыть</button>
+      </div>
+    </div>
+  </div>
+</div>	    
 </header>
+
+<div class="container">
+	<div class="row">
+		<div class="col-10">
+			<h2 style="margin: 15px;">Студенческий хостинг(эконом)</h2>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-3 cart">
+			<p>Host-Lite</p>
+			<b style="font-size: 25px">7 ГБ SSD</b>
+			<p>15 сайтов<br>
+			∞ псевдонимов<br>
+			∞ трафик<br>
+			ISPmanager<br>
+			Plesk</p>
+			<b style="font-size: 20px">от 24 ₽/мес.</b>
+		</div>
+		<div class="col-3 cart">
+			<p>Host-B</p>
+			<b style="font-size: 25px">7 ГБ SSD</b>
+			<p>1 сайтов + ∞ БД <br>
+			∞ псевдонимов<br>
+			∞ трафик<br>
+			ISPmanager<br>
+			Plesk<br>
+			CPanel</p>
+			<b style="font-size: 20px">от 34 ₽/мес.</b>
+		</div>
+		<div class="col-3 cart">
+			<p>Host-A</p>
+			<b style="font-size: 25px">25 ГБ SSD</b>
+			<p>1 сайтов + ∞ БД <br>
+			∞ псевдонимов<br>
+			∞ трафик<br>
+			ISPmanager<br>
+			Plesk<br>
+			CPanel</p>
+			<b style="font-size: 20px">от 54 ₽/мес.</b>
+		</div>
+	</div>
+</div>
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

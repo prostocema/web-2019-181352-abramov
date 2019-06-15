@@ -67,6 +67,19 @@ header{
 .widthpic{
 	width: 100px;
 }
-.carousel-item img {
-justify-content: center;
+.pict {
+margin: 0px;
+}
+.cart{
+	/*margin-left: 30px;*/
+	margin: 30px 20px;
+	border: 2px solid black;
+	text-align: center;
+	padding: 50px 5px;
+}
+.cart:hover{
+	background: lightgrey;
+}
+.cart:focus ~ .cart{
+	border: 2px solid yellow;
 }

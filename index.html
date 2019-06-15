@@ -21,12 +21,41 @@
 			     </form>
 			</div>
 			<div class="col-4">
-			    <a href="#" class="btn btn-dark">Авторизоваться</a>
+			    <a href="#" class="btn btn-dark" data-toggle="modal"data-target="#exampleModal">Авторизоваться</a>
 				<a href="#" class="btn btn-outline-dark">Зарегистрироваться</a>
 			</div>
 		</div>
 	</div>
-			    
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Авторизация</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form class="form-inline">
+
+  <label class="sr-only" for="inlineFormInputGroupUsername2">Имя пользователя</label>
+  <div class="input-group mb-2 mr-sm-2">
+    <div class="input-group-prepend">
+      <div class="input-group-text">@</div>
+    </div>
+    <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Имя пользователя">
+  </div>
+
+  <button type="submit" class="btn btn-dark  mb-2" data-dismiss="modal">Войти</button>
+</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Закрыть</button>
+      </div>
+    </div>
+  </div>
+</div>	    
 </header>
 
 <nav class="nav nav-pills flex-column flex-sm-row">
@@ -73,7 +102,7 @@
 		  <div class="card-body cards">
 		    <h5 class="card-title">Хостинг</h5>
 		    <p class="card-text">Надёжность, доступность и качество.</p>
-		    <a href="#" class="btn btn-secondary">Подробнее</a>
+		    <a href="calculator.html" class="btn btn-secondary">Подробнее</a>
 		  </div>
 		</div>
 
@@ -154,13 +183,13 @@
 <div class="container">
 	<h1 style="text-align: center; margin-top: 15px">Клиенты</h1>
 	<div class="row">
-		<div class="col-4">
+		<div class="col-4 pict">
 			<a href="https://mail.ru"><img src="pictures/logomail.png" style="width: 200px"></a>
 		</div>
-		<div class="col-4">
+		<div class="col-4 pict">
 			<a href="https://vk.com"><img src="pictures/img_155681.png" style="width: 150px"></a>
 		</div>
-		<div class="col-4">
+		<div class="col-4 pict">
 			<a href="https://avito.ru"><img src="pictures/wnPRwd59tn8.jpg" style="width: 300px"></a>
 		</div>
 	</div>
