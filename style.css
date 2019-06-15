@@ -20,3 +20,19 @@ header{
 .card{
 	margin-top: 10px;
 }
+.news{
+	margin: 15px;
+	padding: 15px;
+	border: 5px solid grey;
+	/*min-width: 750px;*/
+	/*margin-left: 5px;*/
+}
+.data{
+	background: lightgrey; padding: 3px;
+}
+.info{
+	border-bottom: 1px solid grey;
+}
+.nav-link:hover{
+	background: lightgrey;
+}
